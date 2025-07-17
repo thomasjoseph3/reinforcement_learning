@@ -1,7 +1,7 @@
-import gymnasium as gym
+import gymnasium as gym # type: ignore
 import pickle as pkl
 import numpy as np
-import cv2
+import cv2 # type: ignore
 
 cliff_env = gym.make("CliffWalking-v0", render_mode="ansi")
 q_table=pkl.load(open("sarsa_qtable.pkl","rb"))

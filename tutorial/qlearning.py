@@ -1,5 +1,5 @@
 import numpy as np
-import gymnasium as gym
+import gymnasium as gym # type: ignore
 import pickle as pkl
 
 cliff_env = gym.make("CliffWalking-v0", render_mode="ansi")
